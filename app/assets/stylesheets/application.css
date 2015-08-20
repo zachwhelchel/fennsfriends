@@ -13,3 +13,56 @@
  *= require_tree .
  *= require_self
  */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:600);
+
+body { 
+	background: #40ba85;
+}
+
+.banner {
+  background: #FFFFFF;
+  width: 100%;
+}
+
+.app-icon-holder {
+  text-align: center;
+  width: 140px;
+  height: 140px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.app-icon {
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.app-title {
+font-family: 'Josefin Sans', sans-serif;  font-weight: 600;
+  font-size: 220%;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.app-description {
+font-family: 'Josefin Sans', sans-serif;  font-weight: 600;
+  font-size: 220%;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #FFFFFF;
+  line-height: 150%;
+}
